@@ -18,7 +18,7 @@
 
 ## Node
 
-> ![](\Note\src\images\node.jpg)
+> ![](node.jpg)
 >
 > AQS 中有一个静态内部类Node, 他是 Sync Queue 和 Condition Queue 内保存的类, 每个线程对应一个Node.
 >
@@ -68,7 +68,7 @@
 
 ## Sync Queue
 
-![](\Note\src\images\SyncQueue.jpg)
+![](SyncQueue.jpg)
 
 > 新增的node将至于尾部tail, 获取锁的node将至于头部head
 >
@@ -224,4 +224,4 @@ final boolean acquireQueued(final Node node, int arg) {
 
 #### 流程图
 
-![](\Note\src\images\20190426161550.png)
+![](20190426161550.png)
